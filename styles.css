@@ -1,7 +1,11 @@
 body {
   background: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 2;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat, sans-serif;
 }
 main {
   margin: auto;
@@ -39,6 +43,21 @@ h1.sm-heading,
 h2.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
+}
+
+.lg-heading {
+  font-size: 60px;
+  font-weight: 900;
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(41, 41, 41) 50%, #ff5858 50%, #cc2e5d);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
+}
+
+.lg-heading:hover {
+  background-position: -100%;
 }
 
 @media screen and (max-width: 768px) {
