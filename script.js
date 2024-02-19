@@ -1,4 +1,3 @@
-  // get some new update
 document.addEventListener('DOMContentLoaded', function () {
   // Get all icon elements
   const icons = document.querySelectorAll('.icons a');
@@ -23,23 +22,19 @@ document.addEventListener('DOMContentLoaded', function () {
       const iconName = iconNames[this.id];
 
       // Set tooltip content
-      tooltip.textContent = `${iconName}!`;
+      tooltip.textContent = `Visit ${iconName}!`;
 
-      // Position tooltip at the bottom and slightly to the right of the icon
-      tooltip.style.top = `${event.clientY + this.offsetHeight}px`;
-      tooltip.style.left = `${event.clientX + this.offsetWidth / 4}px`;
+      // Position tooltip at the bottom of the icon
+      tooltip.style.top = `${event.clientY + this.offsetHeight + 5}px`;
+      tooltip.style.left = `${event.clientX}px`;
 
-      // Show tooltip with a transition
+      // Show tooltip
       tooltip.style.display = 'block';
-      tooltip.style.opacity = '1';
     });
 
     icon.addEventListener('mouseout', function () {
-      // Hide tooltip on mouseout with a transition
-      tooltip.style.opacity = '0';
-      setTimeout(() => {
-        tooltip.style.display = 'none';
-      }, 300); // Adjust the transition duration in milliseconds
+      // Hide tooltip on mouseout
+      tooltip.style.display = 'none';
     });
   });
 });
