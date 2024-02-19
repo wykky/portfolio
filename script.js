@@ -2,6 +2,14 @@ document.addEventListener('DOMContentLoaded', function () {
   // Get all icon elements
   const icons = document.querySelectorAll('.icons a');
 
+// Icon names mapping
+    const iconNames = {
+      githubIcon: 'GitHub',
+      projectsIcon: 'Projects',
+      resumeIcon: 'Résumé',
+      blogIcon: 'Blog'
+    };
+  
   // Create and append tooltip element
   const tooltip = document.createElement('div');
   tooltip.classList.add('tooltip');
