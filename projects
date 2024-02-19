@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>ብሩክ | Projects</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+
+    <h1 class="text-center mb-4">Projects</h1>
+
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-md-6 col-lg-4 project-category">
+        <h2 class="category-title" data-toggle="collapse" data-target="#webAppProjects">
+          <img src="test/img/app.svg" alt="WebApp Icon" class="category-icon">
+          WebApp
+        </h2>
+        <div id="webAppProjects" class="collapse">
+          <ul class="project-list">
+            <li class="project-list-item">WebApp Project 1</li>
+            <li class="project-list-item">WebApp Project 2</li>
+            <li class="project-list-item">See more...</li>
+            <!-- Add more projects as needed -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 project-category">
+        <h2 class="category-title" data-toggle="collapse" data-target="#iotProjects">
+          <img src="test/img/iot.svg" alt="IoT Icon" class="category-icon">
+          IoT
+        </h2>
+        <div id="iotProjects" class="collapse">
+          <ul class="project-list">
+            <li class="project-list-item">IoT Project 1</li>
+            <li class="project-list-item">IoT Project 2</li>
+            <li class="project-list-item">See more...</li>
+            <!-- Add more projects as needed -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 project-category">
+        <h2 class="category-title" data-toggle="collapse" data-target="#gamesProjects">
+          <img src="test/img/game.svg" alt="Games Icon" class="category-icon">
+          Games
+        </h2>
+        <div id="gamesProjects" class="collapse">
+          <ul class="project-list">
+            <li class="project-list-item">Game Project 1</li>
+            <li class="project-list-item">Game Project 2</li>
+            <li class="project-list-item">See more...</li>
+            <!-- Add more projects as needed -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 project-category">
+        <h2 class="category-title" data-toggle="collapse" data-target="#apiProjects">
+          <img src="test/img/api.svg" alt="API Icon" class="category-icon">
+          API
+        </h2>
+        <div id="apiProjects" class="collapse">
+          <ul class="project-list">
+            <li class="project-list-item">API Project 1</li>
+            <li class="project-list-item">API Project 2</li>
+            <li class="project-list-item">See more...</li>
+            <!-- Add more projects as needed -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 project-category">
+        <h2 class="category-title" data-toggle="collapse" data-target="#securityProjects">
+          <img src="test/img/safe.svg" alt="Security Icon" class="category-icon">
+          Security
+        </h2>
+        <div id="securityProjects" class="collapse">
+          <ul class="project-list">
+            <li class="project-list-item">Security Project 1</li>
+            <li class="project-list-item">Security Project 2</li>
+            <li class="project-list-item">See more...</li>
+            <!-- Add more projects as needed -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 project-category">
+        <h2 class="category-title" data-toggle="collapse" data-target="#blockchainProjects">
+          <img src="test/img/block.svg" alt="Blockchain Icon" class="category-icon">
+          Blockchain
+        </h2>
+        <div id="blockchainProjects" class="collapse">
+          <ul class="project-list">
+            <li class="project-list-item">Blockchain Project 1</li>
+            <li class="project-list-item">Blockchain Project 2</li>
+            <li class="project-list-item">See more...</li>
+            <!-- Add more projects as needed -->
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
