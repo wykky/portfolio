@@ -17,7 +17,7 @@
 
       <div class="col-12 col-md-6 col-lg-4 project-category">
         <h2 class="category-title" data-toggle="collapse" data-target="#webAppProjects">
-          <img src="test/img/app.svg" alt="WebApp Icon" class="category-icon">
+          <img src="images/img/app.svg" alt="WebApp Icon" class="category-icon">
           WebApp
         </h2>
         <div id="webAppProjects" class="collapse">
@@ -32,7 +32,7 @@
 
       <div class="col-12 col-md-6 col-lg-4 project-category">
         <h2 class="category-title" data-toggle="collapse" data-target="#iotProjects">
-          <img src="test/img/iot.svg" alt="IoT Icon" class="category-icon">
+          <img src="images/img/iot.svg" alt="IoT Icon" class="category-icon">
           IoT
         </h2>
         <div id="iotProjects" class="collapse">
@@ -47,7 +47,7 @@
 
       <div class="col-12 col-md-6 col-lg-4 project-category">
         <h2 class="category-title" data-toggle="collapse" data-target="#gamesProjects">
-          <img src="test/img/game.svg" alt="Games Icon" class="category-icon">
+          <img src="images/img/game.svg" alt="Games Icon" class="category-icon">
           Games
         </h2>
         <div id="gamesProjects" class="collapse">
@@ -62,7 +62,7 @@
 
       <div class="col-12 col-md-6 col-lg-4 project-category">
         <h2 class="category-title" data-toggle="collapse" data-target="#apiProjects">
-          <img src="test/img/api.svg" alt="API Icon" class="category-icon">
+          <img src="images/img/api.svg" alt="API Icon" class="category-icon">
           API
         </h2>
         <div id="apiProjects" class="collapse">
@@ -77,7 +77,7 @@
 
       <div class="col-12 col-md-6 col-lg-4 project-category">
         <h2 class="category-title" data-toggle="collapse" data-target="#securityProjects">
-          <img src="test/img/safe.svg" alt="Security Icon" class="category-icon">
+          <img src="images/img/safe.svg" alt="Security Icon" class="category-icon">
           Security
         </h2>
         <div id="securityProjects" class="collapse">
@@ -92,7 +92,7 @@
 
       <div class="col-12 col-md-6 col-lg-4 project-category">
         <h2 class="category-title" data-toggle="collapse" data-target="#blockchainProjects">
-          <img src="test/img/block.svg" alt="Blockchain Icon" class="category-icon">
+          <img src="images/img/block.svg" alt="Blockchain Icon" class="category-icon">
           Blockchain
         </h2>
         <div id="blockchainProjects" class="collapse">
