@@ -7,15 +7,26 @@ document.addEventListener('DOMContentLoaded', function () {
   tooltip.classList.add('tooltip');
   document.body.appendChild(tooltip);
 
+  // Icon names mapping
+  const iconNames = {
+    githubIcon: 'GitHub',
+    projectsIcon: 'Projects',
+    resumeIcon: 'Résumé',
+    blogIcon: 'Blog'
+  };
+
   // Add event listeners for each icon
   icons.forEach(icon => {
     icon.addEventListener('mouseover', function (event) {
-      // Set tooltip content
-      tooltip.textContent = `Visit ${this.id}!`;
+      // Get the name from the mapping
+      const iconName = iconNames[this.id];
 
-      // Position tooltip
-      tooltip.style.top = `${event.clientY + 10}px`;
-      tooltip.style.left = `${event.clientX + 10}px`;
+      // Set tooltip content
+      tooltip.textContent = `Visit ${iconName}!`;
+
+      // Position tooltip at the bottom of the icon
+      tooltip.style.top = `${event.clientY + this.offsetHeight + 5}px`;
+      tooltip.style.left = `${event.clientX}px`;
 
       // Show tooltip
       tooltip.style.display = 'block';
@@ -27,4 +38,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
-
