@@ -63,15 +63,16 @@ h1.sm-heading, h2.sm-heading {
 }
 
  /* Add styles for the tooltip */
- .tooltip {
-      position: absolute;
-      background-color: #333;
-      color: white;
-      padding: 5px;
-      border-radius: 5px;
-      display: none; /* Initially hide the tooltip */
-    }
-
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Adjust the transition duration as needed */
+}
 
 @media screen and (max-width: 768px) {
   main {
