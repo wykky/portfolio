@@ -21,7 +21,6 @@ main .icons a {
 
 main .icons a:hover {
   color: #ff1921;
-  transition: all 0.5s ease-out;
 }
 
 main#home {
