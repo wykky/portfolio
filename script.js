@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
   icons.forEach(icon => {
     icon.addEventListener('mouseover', function (event) {
       // Set tooltip content
-      tooltip.textContent = `Visit ${this.id}!`;
+      tooltip.textContent = `${this.id}!`;
 
       // Position tooltip
       tooltip.style.top = `${event.clientY + 10}px`;
