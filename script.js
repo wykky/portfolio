@@ -1,3 +1,4 @@
+  // get some new update
 document.addEventListener('DOMContentLoaded', function () {
   // Get all icon elements
   const icons = document.querySelectorAll('.icons a');
