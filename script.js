@@ -2,28 +2,31 @@ document.addEventListener('DOMContentLoaded', function () {
   // Get all icon elements
   const icons = document.querySelectorAll('.icons a');
 
-// Icon names mapping
-    const iconNames = {
-      githubIcon: 'GitHub',
-      projectsIcon: 'Projects',
-      resumeIcon: 'Résumé',
-      blogIcon: 'Blog'
-    };
-  
   // Create and append tooltip element
   const tooltip = document.createElement('div');
   tooltip.classList.add('tooltip');
   document.body.appendChild(tooltip);
 
+  // Icon names mapping
+  const iconNames = {
+    githubIcon: 'GitHub',
+    projectsIcon: 'Projects',
+    resumeIcon: 'Résumé',
+    blogIcon: 'Blog'
+  };
+
   // Add event listeners for each icon
   icons.forEach(icon => {
     icon.addEventListener('mouseover', function (event) {
-      // Set tooltip content
-      tooltip.textContent = `${this.id}!`;
+      // Get the name from the mapping
+      const iconName = iconNames[this.id];
 
-      // Position tooltip
-      tooltip.style.top = `${event.clientY + 10}px`;
-      tooltip.style.left = `${event.clientX + 10}px`;
+      // Set tooltip content
+      tooltip.textContent = `Visit ${iconName}!`;
+
+      // Position tooltip at the bottom of the icon
+      tooltip.style.top = `${event.clientY + this.offsetHeight + 5}px`;
+      tooltip.style.left = `${event.clientX}px`;
 
       // Show tooltip
       tooltip.style.display = 'block';
