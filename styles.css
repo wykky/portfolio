@@ -1,85 +1,124 @@
 body {
-  background: white;
-  line-height: 1.5;
-  min-height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-main {
-  padding: 4rem;
-}
-
-main .icons a {
-  color: rgb(94, 196, 230);
-  text-align: center;
-  text-decoration: none;
-  padding: 1rem;
-}
-
-main .icons a:hover {
-  color: #ff1921;
-  transition: all 0.5s ease-out;
-}
-
-main#home {
-  overflow: hidden;
-}
-
-main#home h1 {
-  margin-top: 20%;
-}
-
-h1, h2 {
-  color: black;
-  margin: 0;
-  font-weight: 400;
-}
-
-h1.lg-heading, h2.lg-heading {
-  font-size: 5rem;
-}
-
-h1.sm-heading, h2.sm-heading {
-  margin-bottom: 2rem;
-  padding: 0.2rem 1rem;
-}
-
-.lg-heading {
-  font-size: 60px;
-  font-weight: 900;
-  text-decoration: none;
-  background: linear-gradient(to right, rgb(41, 41, 41) 50%, #ff5858 50%, #cc2e5d);
-  background-size: 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: 0.5s ease-out;
-}
-
-.lg-heading:hover {
-  background-position: -100%;
-}
-
- /* Add styles for the tooltip */
- .tooltip {
-      position: absolute;
-      background-color: #333;
-      color: white;
-      padding: 5px;
-      border-radius: 5px;
-      display: none; /* Initially hide the tooltip */
-    }
-
-@media screen and (max-width: 768px) {
-  main {
+    background: white;
+    line-height: 1.5;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .project-category {
+    margin-top: 20px;
+  }
+  
+  .category-title {
+    font-size: 24px;
+    color: #007bff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-list-item {
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .category-icon {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  }
+  
+  main {
+    padding: 4rem;
+  }
+  
+  main .icons a {
+    color: rgb(94, 196, 230);
     text-align: center;
+    text-decoration: none;
+    padding: 1rem;
   }
-
-  main .lg-heading {
-    line-height: 1;
-    margin-bottom: 1rem;
+  
+  main .icons a:hover {
+    color: #ff1921;
+    transition: all 0.5s ease-out;
   }
-}
+  
+  main#home {
+    overflow: hidden;
+  }
+  
+  main#home h1 {
+    margin-top: 20%;
+  }
+  
+  h1, h2 {
+    color: black;
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  h1.lg-heading, h2.lg-heading {
+    font-size: 5rem;
+  }
+  
+  h1.sm-heading, h2.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+  }
+  
+  .lg-heading {
+    font-size: 60px;
+    font-weight: 900;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(41, 41, 41) 50%, #ff5858 50%, #cc2e5d);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+  }
+  
+  .lg-heading:hover {
+    background-position: -100%;
+  }
+  
+  /* Add styles for the tooltip */
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none; /* Initially hide the tooltip */
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+      align-items: center;
+      text-align: center;
+    }
+  
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+  
