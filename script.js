@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const iconName = iconNames[this.id];
 
       // Set tooltip content
-      tooltip.textContent = `${iconName}!`;
+      tooltip.textContent = `${iconName}`;
 
       // Position tooltip at the bottom of the icon
       tooltip.style.top = `${event.clientY + this.offsetHeight + 5}px`;
